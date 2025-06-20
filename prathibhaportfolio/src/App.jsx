@@ -1,11 +1,10 @@
 
-
 function App() {
 
   return (
     <main>
       <div>
-        <h1>Welcome to My Portfolio</h1>
+        <h1 className ="text-4xl text-center" >Welcome to My Portfolio</h1>
       </div>
     </main>
   )
