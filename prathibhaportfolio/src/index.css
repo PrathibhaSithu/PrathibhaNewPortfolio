@@ -141,7 +141,7 @@ section {
       }
     }
 
-    .contact-btn {
+    .download-btn {
       @apply flex;
 
       .inner {

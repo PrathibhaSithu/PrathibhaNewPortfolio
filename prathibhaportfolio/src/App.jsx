@@ -1,13 +1,11 @@
+import TopNavBar from "./components/TopNavBar";
+import Hero from "./sections/Hero";
 
-function App() {
+const App = () => (
+  <>
+    <TopNavBar />
+    <Hero />
+  </>
+);
 
-  return (
-    <main>
-      <div>
-        <h1 className ="text-4xl text-center" >Welcome to My Portfolio</h1>
-      </div>
-    </main>
-  )
-}
-
-export default App
+export default App;
