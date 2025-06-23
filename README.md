@@ -52,6 +52,7 @@
     npm i countup
 
     ```
+    npm i react-responsive
      -->
 11. Run the Development Server
     ```
