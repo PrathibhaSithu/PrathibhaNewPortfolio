@@ -3,7 +3,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Chesnut(props) {
-  const { nodes, materials } = useGLTF('/lil-chesnut.glb')
+  const { nodes, materials } = useGLTF('/models/lil-chesnut.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
@@ -16,4 +16,4 @@ export function Chesnut(props) {
   )
 }
 
-useGLTF.preload('/lil-chesnut.glb')
+useGLTF.preload('/models/lil-chesnut.glb')
