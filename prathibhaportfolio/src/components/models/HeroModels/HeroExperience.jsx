@@ -8,8 +8,8 @@ import HeroLights from "./HeroLight";
 import Particles from "./Particles";
 
 const HeroExperience = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-  const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 700px)" });
+  const isTablet = useMediaQuery({ query: "(max-width: 1050px)" });
 
   return (
     <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
@@ -26,7 +26,7 @@ const HeroExperience = () => {
       />
 
       <Suspense fallback={null}>
-        <HeroLights />
+      <HeroLights />
         <Particles count={100} />
         <group
           scale={isMobile ? 0.7 : 1}
