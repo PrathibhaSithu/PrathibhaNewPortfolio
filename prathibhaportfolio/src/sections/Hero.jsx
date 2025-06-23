@@ -47,7 +47,7 @@ const Hero = () => {
                 </span>
               </h1>
               <h1>Prathibha Sithumini</h1>
-              <h1>Frontend Developer Mobile Developer</h1>
+              <h3 className="text-3xl">Frontend Developer, Mobile Developer</h3>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">

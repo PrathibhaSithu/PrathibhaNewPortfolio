@@ -9,7 +9,7 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: black;
+  background-color: rgb(90, 44, 71);
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
@@ -332,6 +332,7 @@ section {
 .wrapper {
   display: flex;
   flex-direction: column;
+  color: #ebceff;
   animation: wordSlider 21s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
 }
 
