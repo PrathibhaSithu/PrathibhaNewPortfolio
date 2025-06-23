@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Prathibha, a frontend designer and developer and mobile application developer with a passion for creative code.
+              I’m a passionate developer focused on turning ideas into elegant, user-friendly applications. With a keen eye for detail and a love for problem-solving, I build responsive, accessible, and dynamic web experiences.
             </p>
 
             <Buttons
