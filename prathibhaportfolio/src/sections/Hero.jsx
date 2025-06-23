@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Prathibha
+                Hello 👋,
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
