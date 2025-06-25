@@ -46,6 +46,11 @@ const AppShowcase = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
+        <div>
+            <h1 className="text-4xl md:text-5xl font-extrabold text-center text-white mb-8">
+             My Work Showcase
+            </h1>
+        </div>
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
