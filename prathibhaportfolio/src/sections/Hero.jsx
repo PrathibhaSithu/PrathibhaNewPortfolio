@@ -1,18 +1,26 @@
-// import { useGSAP } from "@gsap/react";
-// import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 import Buttons from "../components/Buttons";
 import HeroExperience from "../components/models/HeroModels/HeroExperience";
 import { words } from "../constants";
 
 const Hero = () => {
-//   useGSAP(() => {
-//     gsap.fromTo(
-//       ".hero-text h1",
-//       { y: 50, opacity: 0 },
-//       { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
-//     );
-//   });
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      { 
+        y: 50, 
+        opacity: 0 
+      },
+      { 
+        y: 0, opacity: 1, 
+        stagger: 0.2, 
+        duration: 1, 
+        ease: "power2.inOut" 
+      }
+    );
+  });
 
   return (
     <section id="hero" className="relative overflow-hidden">

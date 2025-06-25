@@ -8,7 +8,7 @@ import HeroLights from "./HeroLight";
 import Particles from "./Particles";
 
 const HeroExperience = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 700px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 750px)" });
   const isTablet = useMediaQuery({ query: "(max-width: 1050px)" });
 
   return (
@@ -29,7 +29,7 @@ const HeroExperience = () => {
       <HeroLights />
         <Particles count={100} />
         <group
-          scale={isMobile ? 0.7 : 1}
+          scale={isMobile ? 0.9 : 1}
           position={[0, -0.5, 0]}
           rotation={[0, -Math.PI / 4, 0]}
         >
