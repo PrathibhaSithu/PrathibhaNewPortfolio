@@ -59,7 +59,9 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              I’m a passionate developer focused on turning ideas into elegant, user-friendly applications. With a keen eye for detail and a love for problem-solving, I build responsive, accessible, and dynamic web experiences.
+              I’m a passionate developer focused on turning ideas into elegant, user-friendly applications. 
+              <br />
+              With a keen eye for detail and a love for problem-solving, I build responsive, accessible, and dynamic web experiences.
             </p>
 
             <Buttons
