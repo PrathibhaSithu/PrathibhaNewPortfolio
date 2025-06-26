@@ -51,6 +51,7 @@ const AppShowcase = () => {
              My Work Showcase
             </h1>
         </div>
+
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
@@ -62,7 +63,7 @@ const AppShowcase = () => {
                 called Ryde
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                An app built with React & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -73,17 +74,76 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Online Fashion Store"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Online Fashion Store</h2>
+              <h4>
+                Web application using HTML CSS JS PHP.
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Online Fashion Store
+              </a>
             </div>
 
+            {/* The Desert Shop */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>The Desert Shop</h2>
+              <h4>Simple Frontend design from html css </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Desert-Shop" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  The Desert Shop
+              </a>
+            </div>
+          </div>
+
+          
+          {/* Online Fashion Store */}
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/project2.png"
+                  alt="Online Fashion Store"
+                />
+              </div>
+              <h2>Online Fashion Store</h2>
+              <h4>
+                Web application using HTML CSS JS PHP.
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Online Fashion Store
+              </a>
+            </div>
+
+            {/* Java Script Calculator */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#FFE7EB]">
+                <img src="/images/project3.png" alt="YC Directory App" />
+              </div>
+              <h2>The Javascript Calculator</h2>
+              <h4>Simple calculator from javascript. Build as a javascript beginner</h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/JavaScript-Calculator.git" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  The Javascript Calculator
+              </a>
             </div>
           </div>
         </div>
