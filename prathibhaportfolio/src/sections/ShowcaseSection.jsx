@@ -53,7 +53,7 @@ const AppShowcase = () => {
         </div>
 
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          {/* <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/project1.png" alt="Ryde App Interface" />
             </div>
@@ -67,33 +67,112 @@ const AppShowcase = () => {
                 user-friendly experience.
               </p>
             </div>
-          </div>
+          </div> */}
 
+          {/* Mushroom Page */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Online Fashion Store"
+                  src="/images/projects/mushroom.png"
+                  alt=""
                 />
               </div>
-              <h2>Online Fashion Store</h2>
+              <h2>Mushroom Home Page </h2>
               <h4>
-                Web application using HTML CSS JS PHP.
+                Designed using HTML and CSS. The page showcases a clean and modern layouts. 
               </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
+                href="https://github.com/PrathibhaSithu/Home-Page-With-Top-Nav" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  Online Fashion Store
+                Mushroom Page  
+              </a>
+            </div>
+
+            {/* Lover Store */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#ffe7fa]">
+                <img src="/images/projects/lovers.png" alt="Lover Store" />
+              </div>
+              <h2>Lover Store</h2>
+              <h4>Simple Frontend design from html css and JS </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Lovers-Store" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                Lover Store  
+              </a>
+            </div>
+          </div>
+
+          <div className="project-list-wrapper overflow-hidden">
+            {/* Animated Web Clock */}
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/projects/clock.png"
+                  alt="Animated Web Clock"
+                />
+              </div>
+              <h2>Animated Web Clock</h2>
+              <h4>
+                Simple and elegant design clock for web development biginers.
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Digital_Clock_-" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Animated Clock
+              </a>
+            </div>
+
+            {/* Business Frontend */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#ffe7fa]">
+                <img src="/images/projects/connecto.jpg" alt="Dessertshop" />
+              </div>
+              <h2>Business Frontend</h2>
+              <h4>Simple Frontend design from html css </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Assignment-2" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Business Frontend
+              </a>
+            </div>
+          </div>
+
+          <div className="project-list-wrapper overflow-hidden">
+            {/* gradiant border cards */}
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/projects/bordercards.png"
+                  alt="Online Fashion Store"
+                />
+              </div>
+              <h2>Gradiant Border Cards</h2>
+              <h4>
+                Gradient cards used for web development. Developed using HTML CSS JS PHP.
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Gradient_Border_Cards" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Gradiant Border Cards
               </a>
             </div>
 
             {/* The Desert Shop */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#ffe7fa]">
-                <img src="/images/projects/dessertshop.png" alt="YC Directory App" />
+                <img src="/images/projects/dessertshop.png" alt="Dessertshop" />
               </div>
               <h2>The Desert Shop</h2>
               <h4>Simple Frontend design from html css </h4>
@@ -119,7 +198,182 @@ const AppShowcase = () => {
               </div>
               <h2>Online Fashion Store</h2>
               <h4>
-                Web application using HTML CSS JS PHP.
+                Web application with full CRUD using HTML CSS JS PHP.
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Online Fashion Store
+              </a>
+            </div>
+
+            {/* Java Script Calculator */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#FFE7EB]">
+                <img src="/images/project3.png" alt="YC Directory App" />
+              </div>
+              <h2>The Javascript Calculator</h2>
+              <h4>Simple calculator from javascript. Build as a javascript beginner</h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/JavaScript-Calculator.git" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  The Javascript Calculator
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="showcaselayout">
+          {/* <div ref={rydeRef} className="first-project-wrapper">
+            <div className="image-wrapper">
+              <img src="/images/project1.png" alt="Ryde App Interface" />
+            </div>
+            <div className="text-content">
+              <h2>
+                On-Demand Rides Made Simple with a Powerful, User-Friendly App
+                called Ryde
+              </h2>
+              <p className="text-white-50 md:text-xl">
+                An app built with React & TailwindCSS for a fast,
+                user-friendly experience.
+              </p>
+            </div>
+          </div> */}
+
+          {/* Mushroom Page */}
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/projects/mushroom.png"
+                  alt=""
+                />
+              </div>
+              <h2>Mushroom Home Page </h2>
+              <h4>
+                Designed using HTML and CSS. The page showcases a clean and modern layouts. 
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Home-Page-With-Top-Nav" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                Mushroom Page  
+              </a>
+            </div>
+
+            {/* Lover Store */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#ffe7fa]">
+                <img src="/images/projects/lovers.png" alt="Lover Store" />
+              </div>
+              <h2>Lover Store</h2>
+              <h4>Simple Frontend design from html css and JS </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Lovers-Store" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                Lover Store  
+              </a>
+            </div>
+          </div>
+
+          <div className="project-list-wrapper overflow-hidden">
+            {/* Animated Web Clock */}
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/projects/clock.png"
+                  alt="Animated Web Clock"
+                />
+              </div>
+              <h2>Animated Web Clock</h2>
+              <h4>
+                Simple and elegant design clock for web development biginers.
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Digital_Clock_-" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Animated Clock
+              </a>
+            </div>
+
+            {/* Business Frontend */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#ffe7fa]">
+                <img src="/images/projects/connecto.jpg" alt="Dessertshop" />
+              </div>
+              <h2>Business Frontend</h2>
+              <h4>Simple Frontend design from html css </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Assignment-2" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Business Frontend
+              </a>
+            </div>
+          </div>
+
+          <div className="project-list-wrapper overflow-hidden">
+            {/* gradiant border cards */}
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/projects/bordercards.png"
+                  alt="Online Fashion Store"
+                />
+              </div>
+              <h2>Gradiant Border Cards</h2>
+              <h4>
+                Gradient cards used for web development. Developed using HTML CSS JS PHP.
+              </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Gradient_Border_Cards" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  Gradiant Border Cards
+              </a>
+            </div>
+
+            {/* The Desert Shop */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#ffe7fa]">
+                <img src="/images/projects/dessertshop.png" alt="Dessertshop" />
+              </div>
+              <h2>The Desert Shop</h2>
+              <h4>Simple Frontend design from html css </h4>
+              <a 
+                href="https://github.com/PrathibhaSithu/Desert-Shop" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                  The Desert Shop
+              </a>
+            </div>
+          </div>
+
+          
+          {/* Online Fashion Store */}
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/project2.png"
+                  alt="Online Fashion Store"
+                />
+              </div>
+              <h2>Online Fashion Store</h2>
+              <h4>
+                Web application with full CRUD using HTML CSS JS PHP.
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
