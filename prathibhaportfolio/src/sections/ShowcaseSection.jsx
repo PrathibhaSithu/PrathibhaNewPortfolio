@@ -60,7 +60,7 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/"
-                  alt=""
+                  alt="HEMS"
                 />
               </div>
               <h2> Home Energy Management System </h2>
@@ -68,7 +68,7 @@ const AppShowcase = () => {
                  Final year research project with AI and IoT developed using Python and frontend with reactjs
               </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Home-Energy-Management-System-Com-Web" 
+                href="https://github.com/PrathibhaSithu/Home-Energy-Management-System-Com-Web.git" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
@@ -84,10 +84,10 @@ const AppShowcase = () => {
                   alt=""
                 />
               </div>
-              <h2></h2>
-              <h4></h4>
+              <h2>Pet Clinic and Accessory Shop Management</h2>
+              <h4>Channel patients Accessory shop & admin control system Using MERN.</h4>
               <a 
-                href="" 
+                href="https://github.com/PrathibhaSithu/Home-Energy-Management-System-Com-Web" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
@@ -105,12 +105,12 @@ const AppShowcase = () => {
                   alt=""
                 />
               </div>
-              <h2> Veterinary Clinic and Online Pet Accessory Shop Management System </h2>
+              <h2>  </h2>
               <h4>
                 
               </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Pet-Care-and-Pet-Accessories-Shopping-System" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
