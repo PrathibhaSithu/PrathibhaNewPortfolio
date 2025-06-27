@@ -53,8 +53,9 @@ const AppShowcase = () => {
         </div>
 
         <div className="showcaselayout">
-          {/* Home Energy Management System */}
+          
           <div className="project-list-wrapper overflow-hidden">
+            {/* Home Energy Management System */}
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
@@ -64,12 +65,12 @@ const AppShowcase = () => {
               </div>
               <h2> Home Energy Management System </h2>
               <h4>
-                 
+                 Final year research project with AI and IoT developed using Python and frontend with reactjs
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Home-Energy-Management-System-Com-Web" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link  
               </a>
@@ -88,7 +89,7 @@ const AppShowcase = () => {
               <a 
                 href="" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link  
               </a>
@@ -104,14 +105,14 @@ const AppShowcase = () => {
                   alt=""
                 />
               </div>
-              <h2></h2>
+              <h2> Veterinary Clinic and Online Pet Accessory Shop Management System </h2>
               <h4>
                 
               </h4>
               <a 
-                href="" 
+                href="https://github.com/PrathibhaSithu/Pet-Care-and-Pet-Accessories-Shopping-System" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -130,7 +131,7 @@ const AppShowcase = () => {
               <a 
                 href="" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -153,7 +154,7 @@ const AppShowcase = () => {
               <a 
                 href="" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -172,7 +173,7 @@ const AppShowcase = () => {
               <a 
                 href="" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                  GitHub Link 
               </a>
@@ -196,7 +197,7 @@ const AppShowcase = () => {
               <a 
                 href="" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -215,7 +216,7 @@ const AppShowcase = () => {
               <a 
                 href="" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                  GitHub Link 
               </a>
@@ -223,7 +224,7 @@ const AppShowcase = () => {
           </div>
         </div>
 
-        <div className="showcaselayout">
+        <div className="showcaselayout mt-4">
           {/* <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/project1.png" alt="Ryde App Interface" />
@@ -256,7 +257,7 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/Home-Page-With-Top-Nav" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link  
               </a>
@@ -272,7 +273,7 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/Lovers-Store" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link 
               </a>
@@ -295,7 +296,7 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/Digital_Clock_-" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -311,7 +312,7 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/Assignment-2" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -334,7 +335,7 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/Gradient_Border_Cards" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -350,7 +351,7 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/Desert-Shop" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
                 GitHub Link
               </a>
@@ -374,9 +375,9 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
-                  Online Fashion Store
+                GitHub Link
               </a>
             </div>
 
@@ -390,9 +391,9 @@ const AppShowcase = () => {
               <a 
                 href="https://github.com/PrathibhaSithu/JavaScript-Calculator.git" 
                 target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
-                  The Javascript Calculator
+                GitHub Link
               </a>
             </div>
           </div>
