@@ -152,76 +152,82 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/bordercards.png"
-                  alt="Online Fashion Store"
+                  src="/images/projects/"
+                  alt=""
                 />
               </div>
-              <h2>Gradiant Border Cards</h2>
+              <h2></h2>
               <h4>
-                Gradient cards used for web development. Developed using HTML CSS JS PHP.
+                
               </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Gradient_Border_Cards" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  Gradiant Border Cards
+                
               </a>
             </div>
 
-            {/* The Desert Shop */}
+            {/*  */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#ffe7fa]">
-                <img src="/images/projects/dessertshop.png" alt="Dessertshop" />
+                <img 
+                  src="/images/projects/" 
+                  alt="Dessertshop"
+                />
               </div>
-              <h2>The Desert Shop</h2>
-              <h4>Simple Frontend design from html css </h4>
+              <h2></h2>
+              <h4> </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Desert-Shop" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  The Desert Shop
+                  
               </a>
             </div>
           </div>
 
           
-          {/* Online Fashion Store */}
+          {/*  */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Online Fashion Store"
+                  src="/images/projects/"
+                  alt=""
                 />
               </div>
-              <h2>Online Fashion Store</h2>
+              <h2></h2>
               <h4>
-                Web application with full CRUD using HTML CSS JS PHP.
+                
               </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Online-Fashion-Store.git" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  Online Fashion Store
+                
               </a>
             </div>
 
-            {/* Java Script Calculator */}
+            {/*  */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img 
+                  src="/images/projects/" 
+                  alt="" 
+                />
               </div>
-              <h2>The Javascript Calculator</h2>
-              <h4>Simple calculator from javascript. Build as a javascript beginner</h4>
+              <h2></h2>
+              <h4></h4>
               <a 
-                href="https://github.com/PrathibhaSithu/JavaScript-Calculator.git" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  The Javascript Calculator
+                  
               </a>
             </div>
           </div>
