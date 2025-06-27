@@ -84,10 +84,12 @@ const AppShowcase = () => {
                   alt=""
                 />
               </div>
-              <h2>Pet Clinic and Accessory Shop Management</h2>
-              <h4>Channel patients Accessory shop & admin control system Using MERN.</h4>
+              <h2></h2>
+              <h4>
+
+              </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Home-Energy-Management-System-Com-Web" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
@@ -102,15 +104,15 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/"
-                  alt=""
+                  alt="Pet shop"
                 />
               </div>
-              <h2>  </h2>
+              <h2> Pet Clinic and Accessory Shop Management </h2>
               <h4>
-                
+                Channel patients Accessory shop & admin control system Using MERN.
               </h4>
               <a 
-                href="" 
+                href="https://github.com/PrathibhaSithu/Pet-Care-and-Pet-Accessories-Shopping-System.git" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
@@ -118,7 +120,7 @@ const AppShowcase = () => {
               </a>
             </div>
 
-            {/* Voyage LK  */}
+            {/*   */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
@@ -126,10 +128,10 @@ const AppShowcase = () => {
                   alt="" 
                 />
               </div>
-              <h2>Voyage LK</h2>
-              <h4> Kotlin based mobile application project to help traveler to locate the places and find the nearest hotel. </h4>
+              <h2></h2>
+              <h4>  </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/VoyageLK-Mobile-Application" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
@@ -139,20 +141,20 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            {/* */}
+            {/* Voyage LK */}
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/"
-                  alt=""
+                  alt="Voyage LK"
                 />
               </div>
-              <h2></h2>
+              <h2>Voyage LK</h2>
               <h4>
-                
+                Kotlin based mobile application project to help traveler to locate the places and find the nearest hotel.
               </h4>
               <a 
-                href="" 
+                href="https://github.com/PrathibhaSithu/VoyageLK-Mobile-Application" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
