@@ -53,102 +53,50 @@ const AppShowcase = () => {
         </div>
 
         <div className="showcaselayout">
-          {/* <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div> */}
-
-          {/* Mushroom Page */}
+          {/* Home Energy Management System */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/projects/mushroom.png"
+                  src="/images/projects/"
                   alt=""
                 />
               </div>
-              <h2>Mushroom Home Page </h2>
+              <h2> Home Energy Management System </h2>
               <h4>
-                Designed using HTML and CSS. The page showcases a clean and modern layouts. 
+                 
               </h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Home-Page-With-Top-Nav" 
+                href="https://github.com/PrathibhaSithu/Home-Energy-Management-System-Com-Web" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                Mushroom Page  
+                GitHub Link  
               </a>
             </div>
 
-            {/* Lover Store */}
+            {/*  */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#ffe7fa]">
-                <img src="/images/projects/lovers.png" alt="Lover Store" />
-              </div>
-              <h2>Lover Store</h2>
-              <h4>Simple Frontend design from html css and JS </h4>
-              <a 
-                href="https://github.com/PrathibhaSithu/Lovers-Store" 
-                target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
-              >
-                Lover Store  
-              </a>
-            </div>
-          </div>
-
-          <div className="project-list-wrapper overflow-hidden">
-            {/* Animated Web Clock */}
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/projects/clock.png"
-                  alt="Animated Web Clock"
+                <img 
+                  src="/images/projects/" 
+                  alt=""
                 />
               </div>
-              <h2>Animated Web Clock</h2>
-              <h4>
-                Simple and elegant design clock for web development biginers.
-              </h4>
+              <h2></h2>
+              <h4></h4>
               <a 
-                href="https://github.com/PrathibhaSithu/Digital_Clock_-" 
+                href="" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  Animated Clock
-              </a>
-            </div>
-
-            {/* Business Frontend */}
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#ffe7fa]">
-                <img src="/images/projects/connecto.jpg" alt="Dessertshop" />
-              </div>
-              <h2>Business Frontend</h2>
-              <h4>Simple Frontend design from html css </h4>
-              <a 
-                href="https://github.com/PrathibhaSithu/Assignment-2" 
-                target="blank"
-                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
-              >
-                  Business Frontend
+                GitHub Link  
               </a>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            {/* gradiant border cards */}
+            {/*  */}
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
@@ -165,7 +113,49 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
+                GitHub Link
+              </a>
+            </div>
+
+            {/*  */}
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#ffe7fa]">
+                <img 
+                  src="/images/projects/" 
+                  alt="" 
+                />
+              </div>
+              <h2></h2>
+              <h4> </h4>
+              <a 
+                href="" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                GitHub Link
+              </a>
+            </div>
+          </div>
+
+          <div className="project-list-wrapper overflow-hidden">
+            {/* */}
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/projects/"
+                  alt=""
+                />
+              </div>
+              <h2></h2>
+              <h4>
                 
+              </h4>
+              <a 
+                href="" 
+                target="blank"
+                class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
+              >
+                GitHub Link
               </a>
             </div>
 
@@ -184,7 +174,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  
+                 GitHub Link 
               </a>
             </div>
           </div>
@@ -208,7 +198,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                
+                GitHub Link
               </a>
             </div>
 
@@ -227,7 +217,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  
+                 GitHub Link 
               </a>
             </div>
           </div>
@@ -268,7 +258,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                Mushroom Page  
+                GitHub Link  
               </a>
             </div>
 
@@ -284,7 +274,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                Lover Store  
+                GitHub Link 
               </a>
             </div>
           </div>
@@ -307,7 +297,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  Animated Clock
+                GitHub Link
               </a>
             </div>
 
@@ -323,7 +313,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  Business Frontend
+                GitHub Link
               </a>
             </div>
           </div>
@@ -346,7 +336,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  Gradiant Border Cards
+                GitHub Link
               </a>
             </div>
 
@@ -362,7 +352,7 @@ const AppShowcase = () => {
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition"
               >
-                  The Desert Shop
+                GitHub Link
               </a>
             </div>
           </div>
