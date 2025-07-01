@@ -76,17 +76,17 @@ const AppShowcase = () => {
               </a>
             </div>
 
-            {/*  */}
+            {/* Vehicle Registration */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
                   src="/images/projects/" 
-                  alt=""
+                  alt="Vehicle Registration"
                 />
               </div>
-              <h2></h2>
+              <h2>Vehicle Registration</h2>
               <h4>
-                Register vehicles for pay the fine through the online. This full with the CRUD operation and login and registration option. People can pay fine after create account and fill the data. 
+                Register vehicles for pay the fine, login and registration and People can pay fine after create account and fill the data. 
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Mobile-Application-with-full-crud-Opparation.git" 
@@ -109,7 +109,7 @@ const AppShowcase = () => {
               </div>
               <h2> Pet Clinic and Accessory Shop Management </h2>
               <h4>
-                Channel patients Accessory shop & admin control system Using MERN.
+                Channel patients and sell Accessory shop & admin control system Using MERN Stack.
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Pet-Care-and-Pet-Accessories-Shopping-System.git" 
@@ -120,18 +120,20 @@ const AppShowcase = () => {
               </a>
             </div>
 
-            {/*   */}
+            {/* Knowledge Hub  */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
                   src="/images/projects/" 
-                  alt="" 
+                  alt="Book Library Application" 
                 />
               </div>
-              <h2></h2>
-              <h4>  </h4>
+              <h2>Knowledge Hub</h2>
+              <h4> 
+                Share educational notes and materials through the application. Kotlin based application specially designs to help the students in pandemic situation. login data and soft copies of the uploaded documents.  
+              </h4>
               <a 
-                href="" 
+                href="https://github.com/PrathibhaSithu/Book-Library-Application.git" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
@@ -162,18 +164,18 @@ const AppShowcase = () => {
               </a>
             </div>
 
-            {/*  */}
+            {/* Responsive Portfolio Website Template */}
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
-                  src="/images/projects/" 
-                  alt=""
+                  src="/images/projects/miniport.png" 
+                  alt="Responsive Portfolio Website Template"
                 />
               </div>
-              <h2></h2>
+              <h2>Responsive Portfolio Template</h2>
               <h4> </h4>
               <a 
-                href="" 
+                href="https://github.com/PrathibhaSithu/Mini_Responsive_Portfolio_Template.git" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
