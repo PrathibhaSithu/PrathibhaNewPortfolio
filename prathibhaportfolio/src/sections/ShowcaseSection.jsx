@@ -167,7 +167,7 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
                   src="/images/projects/" 
-                  alt="Dessertshop"
+                  alt=""
                 />
               </div>
               <h2></h2>
