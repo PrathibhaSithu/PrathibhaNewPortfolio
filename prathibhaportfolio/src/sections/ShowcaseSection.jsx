@@ -99,7 +99,7 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            {/*  */}
+            {/* Pet Clinic and Accessory Shop Management */}
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
