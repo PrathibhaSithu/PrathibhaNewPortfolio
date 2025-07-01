@@ -173,7 +173,9 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>Responsive Portfolio Template</h2>
-              <h4> </h4>
+              <h4>
+                Modern and responsive web page desigusing HTML, CSS, and JavaScript for showcasing personal and professional achievements, with a clean and professional layout.
+              </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Mini_Responsive_Portfolio_Template.git" 
                 target="blank"
