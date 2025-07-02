@@ -2,7 +2,11 @@ import { abilities } from "../constants";
 
 const FeatureCards = () => (
   <div className="w-full mt-7 padding-x-lg">
-    <h1>Skills</h1>
+    <div>
+    <h1 className="text-4xl md:text-5xl font-extrabold text-center text-white mb-8">
+        My Work Showcase
+    </h1>
+    </div>
     <div className="mx-auto grid-3-cols">
       {abilities.map(({ imgPath, title, desc }) => (
         <div
