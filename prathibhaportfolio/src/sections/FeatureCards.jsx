@@ -4,7 +4,7 @@ const FeatureCards = () => (
   <div className="w-full padding-x-lg">
     <div>
     <h1 className="text-4xl md:text-5xl font-extrabold text-center text-white mb-8">
-        My Work Showcase
+        Soft Skills
     </h1>
     </div>
     <div className="mx-auto grid-3-cols">
