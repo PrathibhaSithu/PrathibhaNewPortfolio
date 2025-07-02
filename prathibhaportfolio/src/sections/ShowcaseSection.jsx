@@ -107,7 +107,7 @@ const AppShowcase = () => {
                   alt="Pet shop"
                 />
               </div>
-              <h2> Pet Clinic and Accessory Shop Management </h2>
+              <h2> Pet Care and Pet Shop Management </h2>
               <h4>
                 Channel patients and sell Accessory shop & admin control system Using MERN Stack.
               </h4>
@@ -153,7 +153,7 @@ const AppShowcase = () => {
               </div>
               <h2>Voyage LK</h2>
               <h4>
-                Kotlin based mobile application project to help traveler to locate the places and find the nearest hotel.
+                Kotlin based mobile application project to help traveler to locate the places and find the nearest hotel and allow hotel owners to promote their hotels. 
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/VoyageLK-Mobile-Application" 
@@ -198,7 +198,7 @@ const AppShowcase = () => {
               </div>
               <h2>Eco Clean</h2>
               <h4>
-                
+                Garbage management mobile application. App allows collector to indicate filled bins, locate garbage bins, and track the status of their requests.
               </h4>
               <a 
                 href="https://github.com/PrathibhaSithu/Eco-Clean-MobileApp" 
