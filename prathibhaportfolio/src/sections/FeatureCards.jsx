@@ -1,7 +1,7 @@
 import { abilities } from "../constants";
 
 const FeatureCards = () => (
-  <div className="w-full mt-7 padding-x-lg">
+  <div className="w-full padding-x-lg">
     <div>
     <h1 className="text-4xl md:text-5xl font-extrabold text-center text-white mb-8">
         My Work Showcase
