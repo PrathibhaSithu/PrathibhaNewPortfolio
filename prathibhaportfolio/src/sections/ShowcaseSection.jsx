@@ -7,40 +7,64 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const rydeRef = useRef(null);
-  const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
+  const cardRefs = useRef([]);
+  // const rydeRef = useRef(null);
+  // const libraryRef = useRef(null);
+  // const ycDirectoryRef = useRef(null);
+
+  cardRefs.current = [];
+
+  const addToRefs = (el) => {
+    if (el && !cardRefs.current.includes(el)) {
+      cardRefs.current.push(el);
+    }
+  };
 
   useGSAP(() => {
-    // Animation for the main section
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
       { opacity: 1, duration: 1.5 }
     );
 
-    // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
-
-    cards.forEach((card, index) => {
+    cardRefs.current.forEach((card, index) => {
       gsap.fromTo(
         card,
-        {
-          y: 50,
-          opacity: 0,
-        },
+        { y: 50, opacity: 0 },
         {
           y: 0,
           opacity: 1,
           duration: 1,
-          delay: 0.3 * (index + 1),
+          delay: 0.1 * index,
           scrollTrigger: {
             trigger: card,
             start: "top bottom-=100",
+            toggleActions: "play none none none",
           },
         }
       );
     });
+    // const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+
+    // cards.forEach((card, index) => {
+    //   gsap.fromTo(
+    //     card,
+    //     {
+    //       y: 50,
+    //       opacity: 0,
+    //     },
+    //     {
+    //       y: 0,
+    //       opacity: 1,
+    //       duration: 1,
+    //       delay: 0.3 * (index + 1),
+    //       scrollTrigger: {
+    //         trigger: card,
+    //         start: "top bottom-=100",
+    //       },
+    //     }
+    //   );
+    // });
   }, []);
 
   return (
@@ -56,7 +80,7 @@ const AppShowcase = () => {
           
           <div className="project-list-wrapper overflow-hidden">
             {/* Home Energy Management System */}
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/"
@@ -77,7 +101,7 @@ const AppShowcase = () => {
             </div>
 
             {/* Vehicle Registration */}
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
                   src="/images/projects/" 
@@ -100,7 +124,7 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             {/* Pet Clinic and Accessory Shop Management */}
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/petshop.png"
@@ -121,7 +145,7 @@ const AppShowcase = () => {
             </div>
 
             {/* Knowledge Hub  */}
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
                   src="/images/projects/" 
@@ -144,7 +168,7 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             {/* Voyage LK */}
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/"
@@ -165,7 +189,7 @@ const AppShowcase = () => {
             </div>
 
             {/* Responsive Portfolio Website Template */}
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img 
                   src="/images/projects/miniport.png" 
@@ -189,7 +213,7 @@ const AppShowcase = () => {
           
           {/* Eco Clean */}
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/ecoclean.jpg"
@@ -209,18 +233,22 @@ const AppShowcase = () => {
               </a>
             </div>
 
-            {/*  */}
-            <div className="project" ref={ycDirectoryRef}>
+            {/* Starfield Animation */}
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img 
                   src="/images/projects/" 
                   alt="" 
                 />
               </div>
-              <h2></h2>
-              <h4></h4>
+              <h2>
+                Starfield Animation
+              </h2>
+              <h4>
+                This project showcases dynamic motion graphics using Three.js in a React environment. It consists of two interactive visual effects
+              </h4>
               <a 
-                href="" 
+                href="https://github.com/PrathibhaSithu/Hovering-Stars" 
                 target="blank"
                 class="inline-block px-4 py-2 bg-[#b31686] text-white font-semibold rounded-lg shadow-md hover:bg-[#8f4e8d] transition mt-2"
               >
@@ -231,25 +259,9 @@ const AppShowcase = () => {
         </div>
 
         <div className="showcaselayout mt-4">
-          {/* <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div> */}
-
           {/* Mushroom Page */}
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/mushroom.png"
@@ -270,7 +282,7 @@ const AppShowcase = () => {
             </div>
 
             {/* Lover Store */}
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img src="/images/projects/lovers.png" alt="Lover Store" />
               </div>
@@ -288,7 +300,7 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             {/* Animated Web Clock */}
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/clock.png"
@@ -309,7 +321,7 @@ const AppShowcase = () => {
             </div>
 
             {/* Business Frontend */}
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img src="/images/projects/connecto.jpg" alt="Dessertshop" />
               </div>
@@ -327,7 +339,7 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             {/* gradiant border cards */}
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/projects/bordercards.png"
@@ -348,7 +360,7 @@ const AppShowcase = () => {
             </div>
 
             {/* The Desert Shop */}
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#ffe7fa]">
                 <img src="/images/projects/dessertshop.png" alt="Dessertshop" />
               </div>
@@ -367,7 +379,7 @@ const AppShowcase = () => {
           
           {/* Online Fashion Store */}
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
@@ -388,7 +400,7 @@ const AppShowcase = () => {
             </div>
 
             {/* Java Script Calculator */}
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={addToRefs}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
