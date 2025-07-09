@@ -27,7 +27,7 @@ const words = [
   { text: "Designs", imgPath: "/images/hero/designs.svg" },
   { text: "Code", imgPath: "/images/hero/code.svg" },
   { text: "Ideas", imgPath: "/images/hero/ideas.svg" },
-  { text: "Creative", imgPath: "/images/hero/creative.svg" },
+  { text: "Testing", imgPath: "/images/hero/ideas.svg" },
   { text: "Designs", imgPath: "/images/hero/designs.svg" },
   { text: "Code", imgPath: "/images/hero/code.svg" },
 ];
