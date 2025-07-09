@@ -231,7 +231,7 @@ section {
   }
 
   .card-border {
-    @apply border-4 border-[#FFDA94] bg-[#FFF5DE];
+    @apply border-4 border-[#E87D26] bg-[#8C715A];
   }
 
   .marquee-item {
