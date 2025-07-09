@@ -1,9 +1,9 @@
 import { abilities } from "../constants";
 
 const FeatureCards = () => (
-  <div className="w-full padding-x-lg bg-[#8C715A] pt-5 pb-6">
+  <div className="w-full padding-x-lg bg-[#5b3a1b] pt-5 pb-6">
     <div>
-    <h1 className="text-4xl md:text-5xl font-extrabold text-center text-[#FFF5DE] mb-8">
+    <h1 className="text-4xl md:text-5xl font-extrabold text-center text-[#fff] mb-8">
         Soft Skills
     </h1>
     </div>
@@ -11,12 +11,12 @@ const FeatureCards = () => (
       {abilities.map(({ imgPath, title }) => (
         <div
           key={title}
-          className="card-border rounded-xl p-8 flex flex-col gap-4"
+          className="card-border rounded-xl p-4 flex flex-col gap-1"
         >
-          <div className="size-14 flex items-center justify-center rounded-full">
+          <div className="size-10 flex items-center justify-center rounded-full">
             <img src={imgPath} alt={title} />
           </div>
-          <h3 className="text-white text-2xl font-semibold mt-2">{title}</h3>
+          <h3 className="text-black text-2xl font-semibold mt-2">{title}</h3>
         </div>
       ))}
     </div>
