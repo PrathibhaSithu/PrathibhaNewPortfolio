@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
-                Hello 👋,
+                Hello 👋 
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -45,7 +45,7 @@ const Hero = () => {
                         <img
                           src={word.imgPath}
                           alt="person"
-                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-[#ffa9ef]"
+                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-[#FFF5DE]"
                         />
                         <span>{word.text}</span>
                       </span>
@@ -54,14 +54,20 @@ const Hero = () => {
                 </span>
               </h1>
               <h1>Prathibha Sithumini</h1>
-              <h3 className="text-3xl">Frontend Developer, Mobile Developer</h3>
+              <h3 className="text-3xl text-[#2C2C2C]">
+                Frontend Developer
+                <br /> 
+                QA Engineer
+                <br />
+                Mobile Developer                
+              </h3>
             </div>
 
-            <p className="text-black md:text-xl relative z-10 pointer-events-none">
+            {/* <p className="text-black md:text-xl relative z-10 pointer-events-none">
               I am passionate developer focused on turning ideas into elegant, user-friendly applications. 
               <br />
               With a keen eye for detail and a love for problem-solving, I build responsive, accessible, and dynamic web experiences.
-            </p>
+            </p> */}
 
             <Buttons
               text="See My Work"

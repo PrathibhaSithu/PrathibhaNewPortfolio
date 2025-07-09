@@ -78,18 +78,27 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Communication",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Leadership",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Problem Solving",
+  },
+  {
+    imgPath: "/images/seo.png",
+    title: "Quality Focus",
+  },
+  {
+    imgPath: "/images/chat.png",
+    title: "Team Work",
+  },
+  {
+    imgPath: "/images/time.png",
+    title: "Creative",
   },
 ];
 
