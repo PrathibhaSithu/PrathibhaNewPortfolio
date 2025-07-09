@@ -1,8 +1,10 @@
 import { abilities } from "../constants";
+import Starfield from "../components/Starfield";
 
 const FeatureCards = () => (
-  <div className="w-full padding-x-lg bg-[#5b3a1b] pt-5 pb-6">
-    <div>
+  <div className="w-full padding-x-lg pt-5 pb-6">
+    <Starfield/>
+    <div relative z-10 px-6 md:px-12>
     <h1 className="text-4xl md:text-5xl font-extrabold text-center text-[#fff] mb-8">
         Soft Skills
     </h1>
